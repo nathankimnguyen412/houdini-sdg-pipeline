@@ -41,9 +41,9 @@
 <rect x="110" y="370" width="160" height="44" rx="8" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="0.5"/>
 <text x="190" y="392" text-anchor="middle" dominant-baseline="central" font-size="14" font-weight="500" fill="#444441">Beauty PNG</text>
 
-<!-- Instance ID AOV -->
+<!-- Cryptomatte EXR -->
 <rect x="410" y="370" width="160" height="44" rx="8" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="0.5"/>
-<text x="490" y="392" text-anchor="middle" dominant-baseline="central" font-size="14" font-weight="500" fill="#444441">Instance ID AOV</text>
+<text x="490" y="392" text-anchor="middle" dominant-baseline="central" font-size="14" font-weight="500" fill="#444441">Cryptomatte EXR</text>
 
 <!-- Merge arrows -->
 <path d="M190,414 L190,434 L340,434 L340,450" fill="none" stroke="#888780" stroke-width="1.5" marker-end="url(#arrow)"/>
@@ -52,7 +52,7 @@
 <!-- Annotation extraction -->
 <rect x="220" y="450" width="240" height="56" rx="8" fill="#E1F5EE" stroke="#0F6E56" stroke-width="0.5"/>
 <text x="340" y="470" text-anchor="middle" dominant-baseline="central" font-size="14" font-weight="500" fill="#085041">Annotation extraction</text>
-<text x="340" y="488" text-anchor="middle" dominant-baseline="central" font-size="12" fill="#0F6E56">mask to COCO JSON</text>
+<text x="340" y="488" text-anchor="middle" dominant-baseline="central" font-size="12" fill="#0F6E56">Cryptomatte to COCO JSON</text>
 
 <line x1="340" y1="506" x2="340" y2="530" stroke="#888780" stroke-width="1.5" marker-end="url(#arrow)"/>
 
