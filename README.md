@@ -102,7 +102,7 @@ One known distribution gap: the current HDRI library skews toward higher-exposur
 
 ## Domain Randomization
 
-The pipeline randomizes across 32 axes grouped into 7 categories, driven entirely by Houdini TOPs/PDG wedge parameters. Every axis is controllable from a single wedge node, enabling systematic ablation experiments by toggling individual axes on or off. Per-wedge parameter logs (.csv files) documenting every domain randomization value for every rendered scene are included in each dataset version on Hugging Face.
+The pipeline randomizes across 32 axes grouped into 7 categories, driven entirely by Houdini TOPs/PDG wedge parameters. Every axis is controllable from a single wedge node, enabling systematic ablation experiments by toggling individual axes on or off.
 
 | Category | Axes | Parameters |
 |----------|:------:|------------|
