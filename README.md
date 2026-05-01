@@ -428,7 +428,7 @@ The result was a complete COCO annotation (bounding box, segmentation polygon, a
   <img src="assets/engineering/rgb_point_grid_combined.PNG" width="500"/>
 </div>
 
-The approach worked and produced correct annotations, but had two fundamental limitations. First, it was hard-capped at 3 object instances per scene (one per color channel). Encoding more instances would require multi-channel color encoding with respect to `is_crowd` for every instance that was partially occluded. This would have taken much more time and engineering investment to scale up to work on an arbitary amount of instances in the scene. Second, it required a separate flat-shaded render pass with its own camera and material network, doubling render overhead per scene.
+The approach worked and produced correct annotations, but had two fundamental limitations. First, it was hard-capped at 3 object instances per scene (one per color channel). Encoding more instances would require multi-channel color encoding with respect to `is_crowd` for every instance that was partially occluded. This would have taken much more time and engineering investment to scale up to work on an arbitrary amount of instances in the scene. Second, it required a separate flat-shaded render pass with its own camera and material network, doubling render overhead per scene.
 
 The Cryptomatte refactor eliminated both limitations. The geometry-native approach was kept as the basis for understanding what annotation extraction actually needs to do. And that understanding made writing the Python replacement straightforward.
 
