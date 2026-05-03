@@ -209,6 +209,10 @@ The following class IDs appear as labels in all prediction visualization images:
 | AP@50 (segm) | 95.1 | 94.1 | 73.2 | 79.4 |
 | AP@50:95 (segm) | 78.5 | 78.5 | 61.9 | 66.7 |
 
+Full COCO evaluation results for all four runs are available in [`assets/results/`](assets/results/).
+
+> **Note on NaN values in the evaluation results:** `APl` (large object AP) shows `NaN` for the controlled evaluation set across all runs. This is expected and correct behavior. The protocol for the controlled eval set was to photograph 1-3 bricks from a consistent distance and angle, producing no instances large enough to meet the COCO large object threshold (bounding box area greater than 96x96 pixels). `NaN` in COCO evaluation indicates no instances of that size existed in the dataset, not a pipeline or model failure. The diverse eval set produces valid `APl` values because varied shooting distances and angles produced some instances that crossed the large object threshold.
+
 | | v1 | v2 | v3 | v4 |
 |--|:--:|:--:|:--:|:--:|
 | Number of Images | 1,000 | 1,000 | 3,000 | 7,000 |
@@ -392,8 +396,6 @@ Proposed fixes: increased partial occlusion variety in training data, more image
 
 ![Inference on controlled set](assets/results/controlled_predictions.png)
 ![Inference on diverse set](assets/results/diverse_predictions.png)
-
-Full COCO evaluation results for all four runs are available in [`assets/results/`](assets/results/).
 
 ---
 
