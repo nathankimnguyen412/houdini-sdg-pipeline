@@ -211,7 +211,7 @@ The following class IDs appear as labels in all prediction visualization images:
 
 Full COCO evaluation results for all four runs are available in [`assets/results/`](assets/results/).
 
-> **Note on NaN values in the evaluation results:** `APl` (large object AP) shows `NaN` for the controlled evaluation set across all runs. This is expected and correct behavior. The protocol for the controlled eval set was to photograph 1-3 bricks from a consistent distance and angle, producing no instances large enough to meet the COCO large object threshold (bounding box area greater than 96x96 pixels). `NaN` in COCO evaluation indicates no instances of that size existed in the dataset, not a pipeline or model failure. The diverse eval set produces valid `APl` values because varied shooting distances and angles produced some instances that crossed the large object threshold.
+> **Note on NaN values in the evaluation results summary json files:** `APl` (large object AP) shows `NaN` for the controlled evaluation set across all runs. This is expected and correct behavior. The protocol for the controlled eval set was to photograph 1-3 bricks from a consistent distance and angle, producing no instances large enough to meet the COCO large object threshold (bounding box area greater than 96x96 pixels). `NaN` in COCO evaluation indicates no instances of that size existed in the dataset, not a pipeline or model failure. The diverse eval set produces valid `APl` values because varied shooting distances and angles produced some instances that crossed the large object threshold.
 
 | | v1 | v2 | v3 | v4 |
 |--|:--:|:--:|:--:|:--:|
