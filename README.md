@@ -467,7 +467,7 @@ The `min_separation_distance` parameter is exposed as a wedge-able attribute, ma
 
 <table>
   <tr>
-    <td align="center"><img src="assets/engineering/old_SOP_network.PNG" width="360"/><br/>Old brick placement network: for-each loop with intersection analysis</td>
+    <td align="center"><img src="assets/engineering/old_ldraw_network.PNG" width="360"/><br/>Old brick placement network: for-each loop with intersection analysis</td>
     <td align="center"><img src="assets/engineering/old_network_performance.PNG" width="360"/><br/>Old cook time: intersectionanalysis consuming 95% of cook time</td>
   </tr>
 </table>
