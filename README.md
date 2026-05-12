@@ -578,4 +578,4 @@ Built by [Nathan Nguyen](https://github.com/nathankimnguyen412) — a pipeline e
 
 I am actively seeking pipeline engineering roles focused on synthetic data, embodied AI, and simulation. I am also open to research engineering collaborations, particularly in areas where procedural generation, domain randomization, and multi-modal sensor data intersect.
 
-[LinkedIn](https://www.linkedin.com/in/nathanknguyen) | [GitHub](https://github.com/nathankimnguyen412) | [Dataset on Hugging Face](https://huggingface.co/datasets/nathankimnguyen412/houdini-lego-sdg)
+[LinkedIn](https://www.linkedin.com/in/nathanknguyen) | [GitHub](https://github.com/nathankimnguyen412) | [Datasets on Hugging Face](https://huggingface.co/datasets/nathankimnguyen412/houdini-lego-sdg)
